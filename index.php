@@ -5,6 +5,7 @@
 	<li><a href="tcpdf.php" >Data formate in table using tcpaf with php</a> </li>
 	<li><a href="<?php echo BASE_URL; ?>/project/captchaer/captchaer.php">captcha verification using php and html </a> </li>
 	<li><a href="<?php echo BASE_URL; ?>/project/contact_form">Popup Contact Form using jQuery and PHP</a> </li>
-	<li><a href="<?php echo BASE_URL; ?>/project/multipull_file">Upload Multiple Files with Form Data using jQuery, Ajax, and PHP</a> </li>
+	<li><a href="<?php echo BASE_URL; ?>/project/custom_search">Add Custom Search and Filter to DataTables Server-side Processing with PHP</a> </li>
+	<li><a href="<?php echo BASE_URL; ?>/project/hCaptcha">Integrate CAPTCHA Checkbox with hCaptcha using PHP</a> </li>
 </ol>
 <?php include 'inc/footer.php'; ?>

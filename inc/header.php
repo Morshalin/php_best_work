@@ -1,7 +1,8 @@
 <?php
 	$filepath = dirname(__DIR__);
 	include($filepath."/database/Database.php");
-	$db = new Database;
+	$db = new Database();
+	
 
 	spl_autoload_register(function($class){
 		$filepath = dirname(__DIR__)."/";
@@ -16,7 +17,15 @@
 	<title>PHP OOP CRUD</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<!-- DataTables CSS library -->
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>/css/datatables.min.css"/>
+	<!-- Theme Css -->
+	<link rel="stylesheet" href="<?php echo BASE_URL?>/css/style.css">
+	<?php
+	if (isset($js_data['page_css'])) {
+		foreach ($js_data['page_css'] as $value) { ?>
+		<link rel="stylesheet" href="<?php echo BASE_URL?>/<?php echo $value; ?>.css">
+<?php } } ?>
 </head>
 <body>
 <div class="container">
@@ -40,5 +49,4 @@
 				</div>
 				<div class="card-body">
 				
-			
 	
