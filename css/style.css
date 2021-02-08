@@ -1,0 +1,8 @@
+ul{}
+ul li {
+  	list-style: none;
+    color: tomato;
+}
+ul li a {
+	color: tomato;
+}
