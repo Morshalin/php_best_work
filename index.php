@@ -7,5 +7,7 @@
 	<li><a href="<?php echo BASE_URL; ?>/project/contact_form">Popup Contact Form using jQuery and PHP</a> </li>
 	<li><a href="<?php echo BASE_URL; ?>/project/custom_search">Add Custom Search and Filter to DataTables Server-side Processing with PHP</a> </li>
 	<li><a href="<?php echo BASE_URL; ?>/project/hCaptcha">Integrate CAPTCHA Checkbox with hCaptcha using PHP</a> </li>
+	<li><a href="<?php echo BASE_URL; ?>/project/hCaptcha">Integrate CAPTCHA Checkbox with hCaptcha using PHP</a> </li>
+	<li><a href="<?php echo BASE_URL; ?>/project/subscription">Newsletter Email Subscription</a> </li>
 </ol>
 <?php include 'inc/footer.php'; ?>

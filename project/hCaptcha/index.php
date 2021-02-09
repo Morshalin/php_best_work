@@ -73,7 +73,7 @@ if(isset($_POST['submit'])){
 echo $statusMsg; 
  
 ?>
-    <dic class="col-sm-8 offset-2">
+    <div class="col-sm-8 offset-2">
         <!-- Form fields -->
             <form action="" method="post">
                 <div class="form-group">
@@ -92,7 +92,7 @@ echo $statusMsg;
                 <!-- Submit button -->
                 <input type="submit" name="submit" value="SUBMIT">
             </form>
-    </dic>
+    </div>
 </div>
 
 <?php 
